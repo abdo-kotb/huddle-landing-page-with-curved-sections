@@ -1,0 +1,170 @@
+/* 992 px */
+@media (max-width: 62em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .address {
+    flex-basis: 40%;
+  }
+}
+
+/* 768 px */
+@media (max-width: 48em) {
+  .logo {
+    width: 18rem;
+  }
+
+  .hero-stats {
+    padding-left: 2.4rem;
+  }
+
+  .form {
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+
+  [type="email"] {
+    padding: 1.6rem;
+  }
+
+  .btn--footer,
+  .btn--footer:active {
+    flex-basis: unset;
+    width: 50%;
+    align-self: end;
+  }
+
+  [role="alert"] {
+    transform: translateY(-7rem);
+  }
+}
+
+/* 640 px */
+@media (max-width: 40em) {
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+
+  .hero-desc {
+    font-size: unset;
+  }
+
+  .stats-rate {
+    font-size: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .feature:first-child::before,
+  .feature:first-child::after,
+  .feature:last-child::before,
+  .feature:last-child::after,
+  .footer:before {
+    background-size: 100% 10%;
+  }
+
+  .feature:first-child::before,
+  .feature:last-child::before,
+  .footer:before {
+    top: -9%;
+  }
+
+  .feature:first-child::after,
+  .feature:last-child::after {
+    bottom: -100%;
+  }
+
+  .header {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .stats-icon {
+    width: 3rem;
+  }
+
+  .feature {
+    margin-bottom: 6.4rem;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+  }
+
+  .feature .container {
+    flex-direction: column-reverse;
+    gap: 9.6rem;
+  }
+
+  .feature .container--middle {
+    flex-direction: column;
+  }
+
+  .feature-text-box {
+    text-align: center;
+  }
+
+  .feature-img {
+    width: 35rem;
+  }
+
+  .feature:first-child::before {
+    background-image: url("../images/bg-section-top-mobile-1.svg");
+  }
+
+  .feature:first-child::after {
+    background-image: url("../images/bg-section-bottom-mobile-1.svg");
+  }
+
+  .feature:last-child::before {
+    background-image: url("../images/bg-section-top-mobile-2.svg");
+  }
+
+  .feature:last-child::after {
+    background-image: url("../images/bg-section-bottom-mobile-2.svg");
+  }
+
+  .section-sign {
+    margin-top: 12.8rem;
+  }
+
+  .footer:before {
+    background-image: url("../images/bg-footer-top-mobile.svg");
+  }
+
+  .footer .container {
+    flex-direction: column-reverse;
+    gap: 9.6rem;
+  }
+
+  .address-text {
+    width: 35rem;
+    max-width: 90%;
+  }
+
+  .attribution {
+    font-size: 1.2rem;
+  }
+}
+
+/* 360 px */
+@media (max-width: 22.5em) {
+  html {
+    font-size: 50%;
+  }
+
+  .btn--hero {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+  }
+}

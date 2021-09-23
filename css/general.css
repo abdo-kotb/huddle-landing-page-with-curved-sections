@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --btn-bg-color: hsl(322, 100%, 66%);
+  --btn-hover-color: hsl(321, 100%, 78%);
+  --err-color: hsl(0, 100%, 63%);
+  --main-color: hsl(192, 100%, 9%);
+  --section-bg-color: hsl(207, 100%, 98%);
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+body {
+  font-family: "open-sans", sans-serif;
+  overflow: hidden;
+  color: var(--main-color);
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.container {
+  width: 115rem;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2 {
+  font-family: "poppins", sans-serif;
+}
+
+.heading-seconday {
+  font-size: 3.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.btn,
+.btn:active {
+  font-family: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  border-radius: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn--hero,
+.btn--sign,
+.btn--footer,
+.btn--hero:active,
+.btn--sign:active,
+.btn--footer:active {
+  background-color: var(--btn-bg-color);
+  font-size: 2.2rem;
+  color: #fff;
+  box-shadow: 0px 3px 10px 0 hsla(192, 100%, 9%, 0.3);
+}
+
+.btn--hero:hover,
+.btn--sign:hover,
+.btn--footer:hover {
+  background-color: var(--btn-hover-color);
+}
+
+.feature:first-child::before,
+.feature:first-child::after,
+.feature:last-child::before,
+.feature:last-child::after,
+.footer:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 39%;
+  z-index: -1;
+}
+
+.feature:first-child::before,
+.feature:last-child::before,
+.footer:before {
+  top: -38%;
+}
+
+.feature:first-child::after,
+.feature:last-child::after {
+  bottom: -99%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
