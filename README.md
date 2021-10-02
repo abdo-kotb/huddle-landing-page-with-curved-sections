@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Code on Github](https://github.com/abdo-kotb/huddle-landing-page-with-curved-sections)
-- [Live Site URL](https://abdo-kotb.github.com/huddle-landing-page-with-curved-sections)
+- [Live Site URL](https://abdo-kotb.github.io/huddle-landing-page-with-curved-sections)
 
 ## My process
 
